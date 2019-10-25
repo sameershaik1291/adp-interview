@@ -32,9 +32,9 @@ public class ParkingLot
 
 		List<ParkingSlot> parkingSlots2 = new ArrayList<ParkingSlot>();
 
-		parkingSlots2.add(new ParkingSlot(4, "standard", false));
-		parkingSlots2.add(new ParkingSlot(5, "standard", true));
-		parkingSlots2.add(new ParkingSlot(6, "handicap", false));
+		parkingSlots2.add(new ParkingSlot(7, "standard", false));
+		parkingSlots2.add(new ParkingSlot(8, "standard", true));
+		parkingSlots2.add(new ParkingSlot(9, "handicap", false));
 
 		allSlots.put(2, parkingSlots2);
 

@@ -7,6 +7,15 @@ package com.core.sample.CarParkSystem;
  */
 public class ParkingSlot 
 {
+	@Override
+	public String toString() {
+		return "ParkingSlot{" +
+				"slotNumber=" + slotNumber +
+				", availability=" + availability +
+				", type='" + type + '\'' +
+				'}';
+	}
+
 	private int slotNumber;
 	private boolean availability;
 	private String type;
